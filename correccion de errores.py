@@ -8,6 +8,6 @@ contador = 0
 i = 1
 while contador < cantidad:
  if i % 2 == 0:
-  print(f"Par número  + {contador} + : {i}") 
-  contador += 1
-  i += 1
+   print(f"Par número  {contador+1} : {i}") 
+   contador += 1
+ i += 1
