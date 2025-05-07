@@ -7,7 +7,7 @@ def saludar():
  
 ventana = tk.Tk() 
 ventana.title("Mi primera app grafica") 
-ventana.geometry("400x200") 
+ventana.geometry("500x300") 
 etiqueta = tk.Label(ventana, text="Ingresa tu nombre:") 
 etiqueta.pack() 
 entrada = tk.Entry(ventana) 
@@ -20,4 +20,7 @@ boton = tk.Button(ventana, text="Saludar", command=saludar)
 boton.pack() 
 etiqueta_resultado = tk.Label(ventana, text="") 
 etiqueta_resultado.pack() 
+etiqueta = tk.Label(ventana, text="Programa realizado por toño") 
+etiqueta.pack() 
+
 ventana.mainloop()
